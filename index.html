@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>Batman | Back-end code challenge</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbrVa8SR67OmNZfNl1FMMJPIK9PrYTjFs&libraries=places&amp;sensor=true"></script>
+
+
+</head>
+
+<body>
+    <div class="msg1">
+        <h1>Enter the villain's address to determine the location of the next attack</h1>
+    </div>
+    <div id="mapa">
+    </div>
+    <div class="inputdiv">
+        <input id="pac-input" class="controls" type="text" placeholder="insert villain address">
+
+        <button type="button" id="btn" onclick="clicou()">Search</button>
+    </div>
+    <div>
+        <p id="atak"></p>
+        <div>
+            <!-- Caixa de informação -->
+            <script src="js/infobox.js"></script>
+            <!-- Agrupamento dos marcadores -->
+            <script src="js/markerclusterer.js"></script>
+            <!-- Arquivo de inicialização do mapa -->
+            <script src="js/map.js"></script>
+</body>
+
+</html>

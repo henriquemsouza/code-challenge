@@ -1,0 +1,61 @@
+[
+
+     {
+         "place":"Amusement Mile",
+            "lat":40.748288,
+            "lng":-73.985791
+   
+      },
+      {
+         "place":"Gotham University",
+            "lat":40.753722,
+            "lng":-73.977494
+         
+      },
+      {
+         "place":"Giordano Botanical Gardens",
+            "lat":40.753875,
+            "lng":-73.983745   
+      },
+      {
+         "place":"Gotham Arms Apartment",
+            "lat":40.761687,
+            "lng":-73.981873    
+      },
+      {
+         "place":"Old Gotham Subway", 
+            "lat":40.759941,
+            "lng":-73.975449    
+      },
+      {
+         "place":"Special Crimes Unit",   
+            "lat":40.749428,
+            "lng":-73.976931
+         
+      },
+      {
+         "place":"GCPD Headquarters",
+            "lat":40.753645,
+            "lng":-73.988117
+         
+      },
+      {
+         "place":"Gotham City Hall",
+            "lat":40.753170,
+            "lng":-73.981972
+         
+      },
+      {
+         "place":"The Clocktower",
+            "lat":40.755469,
+            "lng":-73.976731
+         
+      },
+      {
+         "place":"Wayne Enterprises",     
+            "lat":40.759134,
+            "lng":-73.979021
+         
+      }
+
+]

@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#mapa {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    background: #080000;
+    opacity: 0.9;
+    filter: (opacity=50);
+}
+
+.infoBox {
+    background-color: #FFF;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: black;
+}
+
+.infoBox:hover {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.infoBox p {
+    padding: 0 15px
+}
+
+.infoBox:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #3fa7d8;
+    top: -10px;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    left: 138px
+}
+
+#pac-input {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+#atak {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+#atak:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;
+}
+
+.inputdiv {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+}
+
+#btn {
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    border: 2px solid yellow;
+    position: relative;
+}
+
+#btn:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.msg1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+}
