@@ -14,7 +14,7 @@ function initialize() {
     };
     var bounds = new google.maps.LatLngBounds();
     bounds.extend(new google.maps.LatLng(40.763328, -73.968039)); //boundaries of Gotham.
-    bounds.extend(new google.maps.LatLng(40.746422, -73.994753))
+    bounds.extend(new google.maps.LatLng(40.746422, -73.994753)); //boundaries of Gotham.
     map = new google.maps.Map(document.getElementById("mapa"), options);
     //Buscabox();
 }
@@ -164,8 +164,8 @@ function find_closest_Atk(lat1, lon1) {
 
 
     console.log(markers[closest].title);
-    document.getElementById("atak").innerHTML = "Probably the next attack will be on " + markers[closest].title +
-        " and the villain is currently in  " + document.getElementById("pac-input").value;
+    document.getElementById("atak").innerHTML = "Probably the next attack will be on : " + markers[closest].title +
+        ", and the villain is currently in : " + document.getElementById("pac-input").value;
 }
 
 function clicou() {
