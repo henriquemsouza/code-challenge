@@ -1,7 +1,7 @@
 # Back-end code challenge
 ***
-[Versao  online](http://telzir-vizir.herokuapp.com/ "veja mais")
-### Developed using::
+
+### Developed using:
 * Google Maps Api.
 * Javascript and JQuery.
 * HTML and CSS.
